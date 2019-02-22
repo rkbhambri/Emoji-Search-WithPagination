@@ -1,0 +1,43 @@
+/* .emoji-value{
+    border: 1px solid #CED4DA;
+    border-radius: 0.25rem;
+} */
+
+.emoji-value{
+    /* border-bottom: 1px solid #CED4DA; */
+    border-top: 1px solid #CED4DA;
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+}
+
+.emoji-value .tooltiptext {
+    visibility: hidden;
+  width: 180px;
+  /* background-color: black; */
+  color: #A9A9A9;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+font-weight: bold;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 25%;
+  left: 90%;
+  margin-left: -60px;
+}
+
+.emoji-value:hover .tooltiptext {
+    visibility: visible;
+}
+
+.emoji-value:nth-child(1) {
+    border: none;
+}
+.emoji-value:hover {
+    background-color: #eee;
+}
+.symbol{
+    font-size:32px 
+}
