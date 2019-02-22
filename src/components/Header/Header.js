@@ -10,7 +10,7 @@ const Header = (props) => {
                 <span role="img" aria-label="Smiley">😂</span>
             </p>
         </div>
-    )
+    );
 };
 
 export default Header;
